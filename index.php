@@ -1,11 +1,26 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+<title>Test</title>
+
+</head>
+
+
+<body>
+
+
+<div class="stuff">
+<b>
 <?php
 
 	echo phpversion();
 	echo "<hr>";
-	echo $_SERVER['SERVER_NAME'];
-	
+	echo $_SERVER['SERVER_NAME']; ?>
+</b>	
 
- 
+ <?php
  
 function OpenCon()
  {
@@ -45,12 +60,7 @@ if ($conn->query($sql) === TRUE) {
 }
  
  
- 
- 
- 
- 
- 
- 
+
  
  }
 echo "<br>";
@@ -70,8 +80,11 @@ function CloseCon($conn)
    ?>
   
   
+  </div>
   
   
+  </body>
+  </html>
   
   
   
